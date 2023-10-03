@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpport" content="width=device-width, initial-scale=1.0">
+    <title>BKM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/05a5495a3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/bkm outsourcing agency 2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> OUTSOURCING Agency</p>
+            <h1> Hi!, This is <span> BKM OUTSOURCING AGENCY</span><br> From Philippines</h1>
+        </div>
+    </div>
+</div>
+<!-------------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/owner.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT US</h1>
+                <p>Welcome to BKM Outsourcing Agency, your one-stop solution for unlocking your business's full potential. We are a dedicated team of professionals offering a wide range of services to help businesses grow and succeed in the digital world. With our expertise and passion for excellence, we deliver outstanding results that exceed our clients' expectations.Explore our website to discover how we can assist you in achieving your goals.<br>Choose BKM Outsourcing Agency for reliable,professional, and cost-effective outsourcing solutions. Partner with us and unlock the full potential of your business.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab('experience')">EXPERIENCE </p>
+                    <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <!-- <li><span>WEB DEVELOPER</span><br>Front end web development using HTML, CSS, and JavaScript.<br>Responsive and mobile-friendly website design.<br>User experience (UX) and user interface design.<br>Content management system (CMS) expertise.<br>Custom web application development.</li>  --->
+                    <li><span>VIDEO EDITING</span><br>Video editing software expertise (e.g., Adobe Premiere Pro, Final Cut Pro).<br>Video production and post-production.<br>Video effects and transitions.<br>Motion graphics and animation.<br>Video optimization for various platforms.</li>
+                    <li><span>GRAPHIC DESIGN</span><br>Adobe Creative Suite proficiency (e.g., Photoshop, Illustrator, InDesign).<br>Logo and branding design.<br>Print design (brochures, flyers, posters).<br>Digital graphics for web and social media.<br>Photo editing and manipulation.<br>Knowledge of design principles and trends.</li> 
+                    <li><span>SOCIAL MEDIA MANAGEMENT</span><br>Social media advertising and paid promotion.<br>Audience engagement and community management.<br>Analytucs and performance tracking.<br>Content creation and curation.<br>Social media strategy development.</li>
+                    <li><span>BOOKKEEPING</span><br>Financial record keeping and data entry.<br>Budgeting and financial planning.<br>Accounts payable and  accounts receivable management.<br>Financial statement preparation.<br>Tax preparation and compliance.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Bernardo Medina Jr. and Kara Mei Herrera</span><br>Bernardo Jr. and Kara, the dynamic duo behind our outsourcing agency, bring a wealth of experience and expertise to the table. Bernardo, a graduate of BS in Information Technology Major in Network and Web Application, has honed his skills in web design, graphic design, and video editing to perfection. He's the creative visionary, meticulously crafting websites that seamlessly blend aesthetics with functionality. His ability to turn ideas into visually stunning digital realities is nothing short of impressive.<br><br>
+                        On the other hand, Kara, with her background in BS Economics, is the pragmatic force of our team. With years of experience managing various social media pages and adept in the art of bookkeeping, she ensures that every aspect of your project is not only visually captivating but financially sound. Her strategic social media expertise and financial acumen make her an invaluable asset to our agency.<br><br>
+                        What sets Bernardo Jr. and Kara apart is not just their individual skills but their collective experience in government service spanning several years. Their tenure in public service has afforded them the unique opportunity to interact with diverse clientele, understand their needs, and develop a deep sense of empathy. It was this real-world experience that sparked the idea to establish our outsourcing agency.<br><br>
+                        Observing the challenges faced by businesses, especially startups, in juggling various aspects of their operations, Bernardo and Kara were inspired to create a solution. The core mission of our agency is rooted in their desire to help companies thrive. They understand that success is not solely about profit margins; it's about empowering businesses to focus on what they do best while leaving the rest to the experts.<br><br>
+                        Their experience in meeting with clients from different industries has sharpened their ability to listen, adapt, and provide tailor-made solutions. This client-centric approach is the cornerstone of our agency's ethos. Bernardo Jr. and Kara are not just service providers; they are partners in your success story, and their journey in government service has equipped them with the skills, knowledge, and dedication to make it happen.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Bernardo Medina Jr</span><br>Bachelor of Science in Information Technology Major in Network and Web Application<br>2012-2016<br>Bataan Peninsula State University<br><br><br><br></li>
+                    <li><span>Kara Mei Herrera</span><br>Bachelor of Science in Economics<br>2012-2016<br>University of the Philippines - Diliman</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <!--<div>
+                <i class="fa-solid fa-code"></i>
+                <h2>WEB DESIGN</h2>
+                <p>Our web design service goes beyond aesthetics; it's about creating engaging, 
+                    user-friendly, and conversion-focused websites. Our team of skilled designers
+                     and developers crafts responsive and mobile-friendly sites that leave lasting 
+                     impressions. <br></p>
+                <a href="#">Learn More</a>
+            </div> --->
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>GRAPHIC DESIGN</h2>
+                <p>Our graphic design service is all about visually capturing your brand's essence. 
+                    With proficiency in Adobe Creative Suite, we design compelling logos and branding 
+                    elements that leave a lasting impression. Whether it's print materials like
+                     brochures and posters or digital graphics for web and social media, we excel in 
+                     illustration, typography, and layout design. Our photo editing and manipulation 
+                     skills ensure your visuals are picture-perfect, and we stay on top of design 
+                     principles and trends to keep your brand ahead.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>>
+                <h2>VIDEO EDITING</h2>
+                <p>Bring your stories to life with our video editing service. We are experts in 
+                    video production and post-production, using industry-standard software like 
+                    Adobe Premiere Pro and Final Cut Pro. Our skills encompass video effects, 
+                    transitions, color correction, and audio editing, resulting in captivating 
+                    visual narratives. <br><br> We also excel in motion graphics and animation, 
+                    adding an extra layer of creativity to your videos. From scripting and storyboarding
+                     to video optimization for various platforms, we ensure your videos shine and 
+                     captivate your audience.</p>
+                <a href="#">Learn More</a>
+            </div>
+           <div>
+                <i class="fa-solid fa-bars-progress"></i>>
+                <h2>SOCIAL MEDIA MANAGEMENT</h2>
+                <p> Elevate your brand's online presence with our social media management service. We craft winning strategies, create engaging content, and interact with your audience to foster community engagement. Our expertise extends to social media advertising and paid promotions, driving targeted traffic and conversions. In-depth analytics and performance tracking ensure we adapt and optimize your social media approach continually. From Facebook and Instagram to Twitter and LinkedIn, we master various platforms to boost your online impact.</p>
+                <a href="#">Learn More</a>
+            </div> 
+
+            <div>
+                <i class="fa-solid fa-receipt"></i>
+                <h2>BOOKKEEPING</h2>
+                <p>Let us handle your financial matters with precision and expertise. Our bookkeeping service covers everything from meticulous record-keeping to budgeting and financial planning. We manage accounts payable and accounts receivable, perform bank reconciliations, and prepare comprehensive financial statements. <br><br>Payroll management? No problem. We've got you covered, ensuring compliance and peace of mind. Our proficiency in accounting software streamlines financial processes for your business.</p>
+                <a href="#">Learn More</a>
+            </div> 
+
+        </div>
+    </div>
+</div>
+<!-------------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/FAB Workers Week.jpg">
+                <div class="layer">
+                    <h3>Graphic Design Sample</h3>
+                    <!--- <p>The app connects you to the talented people around the world.<br>
+                        Download it from play store</p> ---->
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/g1.png">
+                <div class="layer">
+                    <h3>Graphic Design Sample</h3>
+                   <!----- <p>The app connects you to the talented people around the world.<br>
+                        Download it from play store</p>  ---->
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/g2.png">
+                <div class="layer">
+                    <h3>Graphic Design Sample</h3>
+                   <!---- <p>The app connects you to the talented people around the world.<br>
+                        Download it from play store</p> ---->
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/cert4.jpg">
+                <div class="layer">
+                    <h3>Bookkeeping Certification</h3>
+                   <!---- <p>The app connects you to the talented people around the world.<br>
+                        Download it from play store</p>  --->
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-envelope"></i>bkmoutsourcingagency@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +1 437-838-1510</p>
+                <div class="social-icons">
+                   
+                    <a href="https://www.instagram.com/bkmoutsourcingagency/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kmherrera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@bkmoutsourcingagency?_t=8gBuc7NUON0&_r=1 "><i class="fa-brands fa-tiktok"></i></a>
+               
+                </div>
+                
+                <a href="images/Herrera-Kara-Mei-Resume.pdf" download class="btn btn2">Download CV OF KARA</a>
+                <a href="images/Medina_BernardoJr-CV-2022.pdf" download class="btn btn2">Download CV OF BERNARDO</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @BKM Outsourcing Agency<i class="fa-solid fa-copyright"></i></p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<!---------------------contact form------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1eih-CLARTwomelTzO8FnEN8ljpslhQ9iq-QDjSvrr8h8wRjfN_ADY9Z8uU4a_6xFuA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = documet.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
